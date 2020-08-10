@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "start": "npm run lite",
+ "test": "echo \"Error: no test specified\" && exit 1",
+ "lite": "lite-server"
+ }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeronimo69/Git-teste.git"
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jeronimo69/Git-teste/issues"
   },
-  "homepage": "https://github.com/jeronimo69/Git-teste#readme"
+  "homepage": "https://github.com/jeronimo69/Git-teste#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
